@@ -96,6 +96,13 @@ p {
 .section-title {
   color: #000523;
 }
+.section-title small {
+  font-size: 14px;
+  text-transform: lowercase;
+  display: block;
+  line-height: 24px;
+  padding-top: 10px;
+}
 .section-item-title-1 {
   color: #031634;
 }

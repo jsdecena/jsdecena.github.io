@@ -24,16 +24,11 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
 		<!-- /Font Awesome -->
 
-		<!-- Nivo Lightbox -->
-		<link rel="stylesheet" href="vendor/nivo-lightbox/nivo-lightbox.css" />
-
-		<link rel="stylesheet" href="vendor/nivo-lightbox/themes/default/default.css" type="text/css" />
-		<!-- /Nivo Lightbox -->
-
 		<!-- Animate CSS -->
-
 		<link href="vendor/animate.css" rel="stylesheet">
 		<!-- /Animate CSS -->
+		<link rel="stylesheet" href="vendor/nivo-lightbox/themes/default/default.css" />
+		<link rel="stylesheet" href="vendor/nivo-lightbox/nivo-lightbox.css" />
 		<!-- Theme Styles -->
 		<link rel="stylesheet" href="assets/css/styles.css" />
 		<link rel="stylesheet" href="assets/css/default.css" /> 
@@ -58,6 +53,8 @@
 		<link href="assets/img/logo-57.png" rel="apple-touch-icon-precomposed">
 		<!-- /Favicon
 		========================================================= -->
+		<!-- jQuery (necessary for plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>		
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -118,12 +115,11 @@
 	<nav id="side-menu" class="side-menu-este">
 	<ul class="nav side-menu-nav">
 	  <li><a href="#intro"><i class="fa fa-angle-right"></i> Intro</a></li>
-	  <li><a href="#education"><i class="fa fa-angle-right"></i> Education</a></li>
 	  <li><a href="#works"><i class="fa fa-angle-right"></i> Work Experience</a></li>
+	  <li><a href="#education"><i class="fa fa-angle-right"></i> Education</a></li>
 	  <li><a href="#skills"><i class="fa fa-angle-right"></i> Skills</a></li>
 	  <li class="hidden"><a href="#interests"><i class="fa fa-angle-right"></i> Interests</a></li>
-	  <li class="hidden"><a href="#portfolio"><i class="fa fa-angle-right"></i> Portfolio</a></li>
-	  <li><a href="#contact"><i class="fa fa-angle-right"></i> Contact</a></li>
+	  <li><a href="#portfolio"><i class="fa fa-angle-right"></i> Portfolio</a></li>
 	</ul>
 	</nav>
 	<!-- /Main Navigation-->
@@ -564,7 +560,7 @@
 				<!-- /Graduation time -->
 				<!-- content -->
 				<div class="graduation-description">
-				<p>Currently taking my Master's degree in <a target="_blank" href="http://www.plm.edu.ph">Pamantasan ng Lungsod ng Maynila</a> <em>(University of the City of Manila)</em> with the specialization on Information Communications Technology. As of writing, I have gained already 28 units / 36 units to get a Diploma and 42 units to get the Degree.</p>
+				<p>Currently, a graduating candidate for Master's diploma in <a target="_blank" href="http://www.plm.edu.ph">Pamantasan ng Lungsod ng Maynila</a> <em>(University of the City of Manila)</em> with the specialization on <strong>Information Communications Technology</strong> in the summer of 2016 and hopefully to graduate my Master's degree in the summer a year after.</p>
 				</div>
 				<!-- /Content -->
 				</div>
@@ -775,7 +771,7 @@
 				<div class="progress-bar" data-percent="85%" role="progressbar" style="width: 85%;">
 				<span class="sr-only">85% Complete</span>
 				</div>
-				<span class="progress-type">Adobe Photoshop</span>
+				<span class="progress-type">Adobe Creative Suites ( Photoshop, Lightroom, Fireworks, Illustrator )</span>
 				<span class="progress-completed">85%</span>
 				</div>
 				</li>
@@ -786,7 +782,7 @@
 				<div class="progress-bar progress-bar-2" data-percent="90%" role="progressbar" style="width: 90%;">
 				<span class="sr-only">90% Complete</span>
 				</div>
-				<span class="progress-type">Sublime Text</span>
+				<span class="progress-type">Sublime Text2/3 IDE</span>
 				<span class="progress-completed">90%</span>
 				</div>
 				</li>
@@ -815,112 +811,222 @@
 
 				<!-- SECTION ITEM -->
 				<div class="line row">
-				<!-- Margin Collums (necessary for the timeline effect) -->
-				<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-				<div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
-				<!-- /Margin Collums (necessary for the timeline effect) -->
-				<!-- Item Content -->
-				<div class="col-md-8 content-wrap bg1">
-				<div class="line-content">
-				<!-- Subtitle -->
-				<h3 class="section-item-title-1">Code Skills</h3>
-				<!-- /Subtitle -->
-				<!-- content -->
-				<ul class="skills-list">
-				<!-- item-list -->
-				<li>
-				<div class="progress">
-				<div class="progress-bar" data-percent="90%" role="progressbar" style="width: 90%;">
-				<span class="sr-only">90% Complete</span>
-				</div>
-				<span class="progress-type">HTML5 / CSS3 / jQuery / AJAX / MySql</span>
-				<span class="progress-completed">90%</span>
-				</div>
-				</li>
-				<!-- /item list -->
-				<!-- item-list -->
-				<li>
-					<div class="progress">
-						<div class="progress-bar progress-bar-2" data-percent="85%" role="progressbar" style="width: 85%;">
-							<span class="sr-only">60% Complete</span>
+					<!-- Margin Collums (necessary for the timeline effect) -->
+					<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+					<div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+					<!-- /Margin Collums (necessary for the timeline effect) -->
+					<!-- Item Content -->
+					<div class="col-md-8 content-wrap bg1">
+						<div class="line-content">
+							<!-- Subtitle -->
+							<h3 class="section-item-title-1">Programming Skills</h3>
+							<!-- /Subtitle -->
+							<!-- content -->
+							<ul class="skills-list">
+								<!-- item-list -->
+								<li>
+									<div class="progress">
+									<div class="progress-bar" data-percent="90%" role="progressbar" style="width: 90%;">
+									<span class="sr-only">90% Complete</span>
+									</div>
+									<span class="progress-type">HTML5 / CSS3 / jQuery / AJAX / MySql</span>
+									<span class="progress-completed">90%</span>
+									</div>
+								</li>
+								<!-- /item list -->
+								<!-- item-list -->
+								<li>
+									<div class="progress">
+										<div class="progress-bar progress-bar-2" data-percent="85%" role="progressbar" style="width: 85%;">
+											<span class="sr-only">60% Complete</span>
+										</div>
+										<span class="progress-type">PHP - (Laravel, CodeIgniter, Zend 2)</span>
+										<span class="progress-completed">85%</span>
+									</div>
+								</li>
+								<!-- /item list -->
+								<!-- item-list -->
+								<li>
+									<div class="progress">
+										<div class="progress-bar progress-bar-3" data-percent="80%" role="progressbar" style="width: 80%;">
+											<span class="sr-only">80% Complete</span>
+										</div>
+										<span class="progress-type">Version Control - Git</span>
+										<span class="progress-completed">80%</span>
+									</div>
+								</li>
+								<!-- /item list -->
+								<!-- item-list -->
+								<li>
+									<div class="progress">
+										<div class="progress-bar progress-bar" data-percent="90%" role="progressbar" style="width: 90%;">
+											<span class="sr-only">90% Complete</span>
+										</div>
+										<span class="progress-type">Web Services - REST, SOAP</span>
+										<span class="progress-completed">90%</span>
+									</div>
+								</li>
+								<!-- /item list -->		
+								<!-- item-list -->
+								<li>
+									<div class="progress">
+										<div class="progress-bar progress-bar-1" data-percent="65%" role="progressbar" style="width: 65%;">
+											<span class="sr-only">65% Complete</span>
+										</div>
+										<span class="progress-type">CSS Frameworks - Twitter Bootstrap, Foundation</span>
+										<span class="progress-completed">65%</span>
+									</div>
+								</li>
+							<!-- /item list -->
+								<!-- item-list -->
+								<li>
+									<div class="progress">
+										<div class="progress-bar progress-bar-2" data-percent="45%" role="progressbar" style="width: 45%;">
+											<span class="sr-only">45% Complete</span>
+										</div>
+										<span class="progress-type">JS Frameworks - AngularJS, NodeJs, Grunt </span>
+										<span class="progress-completed">65%</span>
+									</div>
+								</li>
+							<!-- /item list -->																                                
+							</ul>
+							<!-- /Content -->
 						</div>
-						<span class="progress-type">PHP / Linux / Terminal Commands </span>
-						<span class="progress-completed">85%</span>
 					</div>
-				</li>
-				<!-- /item list -->
-				<!-- item-list -->
-				<li>
-				<div class="progress">
-				<div class="progress-bar progress-bar-3" data-percent="90%" role="progressbar" style="width: 90%;">
-				<span class="sr-only">90% Complete</span>
-				</div>
-				<span class="progress-type">Version Control - Git</span>
-				<span class="progress-completed">90%</span>
-				</div>
-				</li>
-				<!-- /item list -->
-				<!-- item-list -->
-				<li>
-				<div class="progress">
-				<div class="progress-bar progress-bar" data-percent="70%" role="progressbar" style="width: 70%;">
-				<span class="sr-only">70% Complete</span>
-				</div>
-				<span class="progress-type">Web Services - REST, SOAP</span>
-				<span class="progress-completed">70%</span>
-				</div>
-				</li>
-				<!-- /item list -->	
-				<!-- item-list -->
-				<li>
-				<div class="progress">
-				<div class="progress-bar progress-bar-2" data-percent="50%" role="progressbar" style="width: 50%;">
-				<span class="sr-only">50% Complete</span>
-				</div>
-				<span class="progress-type">Agile - SCRUM</span>
-				<span class="progress-completed">50%</span>
-				</div>
-				</li>
-				<!-- /item list -->	
-				<!-- item-list -->
-				<li>
-					<div class="progress">
-						<div class="progress-bar progress-bar-3" data-percent="65%" role="progressbar" style="width: 65%;">
-							<span class="sr-only">65% Complete</span>
-						</div>
-						<span class="progress-type">Amazon Web Services - EC2, EB, S3, RDS, CloundFront </span>
-						<span class="progress-completed">65%</span>
-					</div>
-				</li>
-				<!-- /item list -->	
-				<!-- item-list -->
-				<li>
-					<div class="progress">
-						<div class="progress-bar progress-bar-1" data-percent="85%" role="progressbar" style="width: 85%;">
-							<span class="sr-only">85% Complete</span>
-						</div>
-						<span class="progress-type">Other technologies - Twitter Bootstrap, AngularJS, NodeJs, Grunt </span>
-						<span class="progress-completed">85%</span>
-					</div>
-				</li>
-				<!-- /item list -->									                                
-				</ul>
-				<!-- /Content -->
-				</div>
-				</div>
-				<!-- /Item Content -->
-				<!-- Margin Collum-->
-				<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+					<!-- /Item Content -->
+					<!-- Margin Collum-->
+					<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
 				<!-- /Margin Collum-->
 				</div>
 				<!-- /SECTION ITEM --> 
+				<!-- SECTION ITEM -->
+				<div class="line row">
+					<!-- Margin Collums (necessary for the timeline effect) -->
+					<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+					<div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+					<!-- /Margin Collums (necessary for the timeline effect) -->
+					<!-- Item Content -->
+					<div class="col-md-8 content-wrap bg1">
+                    <div class="line-content">
+                        <!-- Subtitle -->
+                        <h3 class="section-item-title-1">Networking Skills</h3>
+                        <!-- /Subtitle -->
+                        <!-- content -->
+                        <ul class="skills-list">
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-3" data-percent="65%" role="progressbar" style="width: 65%;">
+                                        <span class="sr-only">65% Complete</span>
+                                    </div>
+                                    <span class="progress-type">Amazon Elastic Cloud Compute (EC2) </span>
+                                    <span class="progress-completed">65%</span>
+                                </div>
+                            </li>
+                            <!-- /item list --> 
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-2" data-percent="65%" role="progressbar" style="width: 65%;">
+                                        <span class="sr-only">65% Complete</span>
+                                    </div>
+                                    <span class="progress-type">Amazon Elastic Beanstalk (EB)</span>
+                                    <span class="progress-completed">65%</span>
+                                </div>
+                            </li>
+                            <!-- /item list --> 
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-1" data-percent="65%" role="progressbar" style="width: 65%;">
+                                        <span class="sr-only">65% Complete</span>
+                                    </div>
+                                    <span class="progress-type">Amazon Simple Storage Service (S3) and CloundFront</span>
+                                    <span class="progress-completed">65%</span>
+                                </div>
+                            </li>
+                            <!-- /item list -->
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-3" data-percent="65%" role="progressbar" style="width: 65%;">
+                                        <span class="sr-only">65% Complete</span>
+                                    </div>
+                                    <span class="progress-type">Amazon Relational Databases Service (RDS)</span>
+                                    <span class="progress-completed">65%</span>
+                                </div>
+                            </li>
+                            <!-- /item list --> 
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-1" data-percent="45%" role="progressbar" style="width: 45%;">
+                                        <span class="sr-only">45% Complete</span>
+                                    </div>
+                                    <span class="progress-type">Nginx, Apache</span>
+                                    <span class="progress-completed">45%</span>
+                                </div>
+                            </li>
+                            <!-- /item list --> 
+                        </ul>
+                        <!-- /Content -->
+                    </div>
+					</div>
+					<!-- /Item Content -->
+					<!-- Margin Collum-->
+					<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+				<!-- /Margin Collum-->
+				</div>
+				<!-- /SECTION ITEM --> 
+				<!-- SECTION ITEM -->
+				<div class="line row">
+					<!-- Margin Collums (necessary for the timeline effect) -->
+					<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+					<div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+					<!-- /Margin Collums (necessary for the timeline effect) -->
+					<!-- Item Content -->
+					<div class="col-md-8 content-wrap bg1">
+                    <div class="line-content">
+                        <!-- Subtitle -->
+                        <h3 class="section-item-title-1">Project Management Skills</h3>
+                        <!-- /Subtitle -->
+                        <!-- content -->
+                        <ul class="skills-list">
+                            <!-- item-list -->
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-2" data-percent="50%" role="progressbar" style="width: 50%;">
+                                    <span class="sr-only">50% Complete</span>
+                                </div>
+                                    <span class="progress-type">Agile - Scrum</span>
+                                    <span class="progress-completed">50%</span>
+                                </div>
+                            </li>
+                            <!-- /item list -->
+                            <!-- item-list -->
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-3" data-percent="60%" role="progressbar" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                                    <span class="progress-type">Kanban</span>
+                                    <span class="progress-completed">60%</span>
+                                </div>
+                            </li>
+                            <!-- /item list -->                                                                                     
+                        </ul>
+                        <!-- /Content -->
+                    </div>
+					</div>
+					<!-- /Item Content -->
+					<!-- Margin Collum-->
+					<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+				<!-- /Margin Collum-->
+				</div>
+				<!-- /SECTION ITEM --> 								
 			</section>
 			<!-- ==>> /SECTION: SKILLS -->
 
-			<!-- ====>> SECTION: THANK YOU <<====-->
-			<section class="timeline profile-infos">
+			<!-- ====>> SECTION: WORK EXPERIENCE <<====-->
+			<section class="timeline work-experience" id="portfolio">
+
 				<!-- VERTICAL MARGIN (necessary for the timeline effect) -->
-				<div class="line row timeline-margin timeline-margin-big">
+				<div class="line row timeline-margin">
 				<div class="content-wrap">
 				<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
 				<div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
@@ -929,24 +1035,190 @@
 				</div>
 				<!-- /VERTICAL MARGIN -->
 
-				<!-- SECTION ITEM -->
-				<div class="line row line-thank-you">
+				<!-- SECTION TITLE -->
+				<div class="line row">
 				<!-- Margin Collums (necessary for the timeline effect) -->
 				<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-				<div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+				<div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
 				<!-- /Margin Collums -->
 				<!-- Item Content -->
 				<div class="col-md-8 content-wrap bg1">
-				<div class="line-content">
-				<!-- Subtitle -->
-				<h3 class="thank-you">Thank You!</h3>
-				<!-- /Subtitle -->
-				</div>
+				<!-- Section title -->
+				<h2 class="section-title">Portfolio <small>These are some of my projects in 5+ years in web programming. Others are not public and is used internally by the companies I have worked for. For more inquiries, kindly contact me.</small></h2>
+				<!-- /Section title -->
 				</div>
 				<!-- /Item Content -->
 				<!-- Margin Collum-->
 				<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-				<!-- / Margin Collum-->
+				<!-- /Margin Collum-->
+				</div>
+				<!-- /SECTION TITLE -->
+
+				<!-- SECTION ITEM -->
+				<div class="line row">
+					<!-- Margin Collums (necessary for the timeline effect) -->
+						<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+						<div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-portfolio"></div>
+					<!-- /Margin Collums -->
+					<!-- Item Content -->
+					<div class="col-md-8 content-wrap bg1">
+						<div class="line-content line-content-portfolio">
+							<!-- Work Place -->
+							<h3 class="section-item-title-1">Ohvola</h3>
+							<!-- /work place -->
+							<div class="col-md-6">
+								<div class="row">
+									<!-- Graduation time -->
+									<a class="nivobox" href="assets/projects/ohvola.png"><img src="assets/projects/ohvola.png" alt="" class="img-thumbnail" width="300"></a>
+									<!-- /Graduation time -->									
+								</div>
+							</div>
+							<!-- content -->
+							<div class="job-description">
+								<p> <a target="_blank" href="http://www.ohvola.com">Ohvola.com</a> is an online blog shop in Singapore that caters local client to Malaysia. </p>
+								<p><strong>About the site:</strong> </p>
+								<p>From a pushcart to an international women’s label - that’s where passion has brought Ohvola so far. Started in 2007, the Zhou sisters - Lucinda & Jolene - wanted to create a brand to share the excitement, wonder and strength that dressing up brings them. </p>
+								<p><i class="fa fa-tag"></i> e-commerce, prestashop</p>
+							</div>
+							<!-- /Content -->
+						</div>
+						<div class="clearfix"></div>
+						<div class="line-content line-content-portfolio">
+							<!-- Work Place -->
+							<h3 class="section-item-title-1">The Poplook</h3>
+							<!-- /work place -->
+							<div class="col-md-6">
+								<div class="row">
+									<!-- Graduation time -->
+									<a href="assets/projects/tpl.png" class="nivobox"><img src="assets/projects/tpl.png" alt="" class="img-thumbnail" width="300"></a>
+									<!-- /Graduation time -->									
+								</div>
+							</div>
+							<!-- content -->
+							<div class="job-description">
+								<p> <a target="_blank" href="http://www.thepoplook.com">Thepoplook.com</a> is based in Malaysia which boasts a wide array of fashionable clothing and accessories, even offering international delivery. </p>
+								<p><strong>About the site:</strong> </p>
+								<p>POPLOOK is one of Malaysia's leading online stores specialising in modest fashion.</p>
+								<p><i class="fa fa-tag"></i> e-commerce, prestashop</p>
+							</div>
+							<!-- /Content -->
+						</div>
+						<div class="clearfix"></div>
+						<div class="line-content line-content-portfolio">
+							<!-- Work Place -->
+							<h3 class="section-item-title-1">Catwalkclose</h3>
+							<!-- /work place -->
+							<div class="col-md-6">
+								<div class="row">
+									<!-- Graduation time -->
+									<a href="assets/projects/cwc.png" class="nivobox"><img src="assets/projects/cwc.png" alt="" class="img-thumbnail" width="300"></a>
+									<!-- /Graduation time -->									
+								</div>
+							</div>
+							<!-- content -->
+							<div class="job-description">
+								<p> <a target="_blank" href="http://catwalkclose.com">Catwalkclose.com</a> Catwalk Close is an online fashion store in Singapore that offering both fashionable apparels and accessories. </p>
+								<p><i class="fa fa-tag"></i> e-commerce, prestashop</p>
+							</div>
+							<!-- /Content -->
+						</div>
+						<div class="clearfix"></div>
+						<div class="line-content line-content-portfolio">
+							<!-- Work Place -->
+							<h3 class="section-item-title-1">Sendah</h3>
+							<!-- /work place -->
+							<div class="col-md-6">
+								<div class="row">
+									<!-- Graduation time -->
+									<a href="assets/projects/snd.jpg" class="nivobox"><img src="assets/projects/snd.jpg" alt="" class="img-thumbnail" width="300"></a>
+									<!-- /Graduation time -->									
+								</div>
+							</div>
+							<!-- content -->
+							<div class="job-description">
+								<p> <a target="_blank" href="https://www.sendah.com">Sendah.com</a> is an online gift remittance and payment platform that gives its users a "better way to send" to the Philippines. Sendah carries a diverse range of products and services that make sending to the Philippines fast, easy and hassle-free.</p>
+								<p><i class="fa fa-tag"></i> e-commerce, prestashop</p>
+							</div>
+							<!-- /Content -->
+						</div>
+						<div class="clearfix"></div>
+						<div class="line-content line-content-portfolio">
+							<!-- Work Place -->
+							<h3 class="section-item-title-1">Nat Ho</h3>
+							<!-- /work place -->
+							<div class="col-md-6">
+								<div class="row">
+									<!-- Graduation time -->
+									<a href="assets/projects/nh.jpeg" class="nivobox"><img src="assets/projects/nh.jpeg" alt="" class="img-thumbnail" width="300"></a>
+									<!-- /Graduation time -->									
+								</div>
+							</div>
+							<!-- content -->
+							<div class="job-description">
+								<p> <a target="_blank" href="http://http://natho.net">Natho.net</a> Nat Ho is a familiar face in Singapore’s Entertainment industry, having cut his teeth as Model as well as Actor in Mediacorp for four years before finally leaving to pursue his First Love: Music. </p>
+								<p><i class="fa fa-tag"></i> cms, wordpress</p>
+							</div>
+							<!-- /Content -->
+						</div>
+						<div class="clearfix"></div>
+						<div class="line-content line-content-portfolio">
+							<!-- Work Place -->
+							<h3 class="section-item-title-1">The Manila Post</h3>
+							<!-- /work place -->
+							<div class="col-md-6">
+								<div class="row">
+									<!-- Graduation time -->
+									<a href="assets/projects/tmp.jpg" class="nivobox"><img src="assets/projects/tmp.jpg" alt="" class="img-thumbnail" width="300"></a>
+									<!-- /Graduation time -->									
+								</div>
+							</div>
+							<!-- content -->
+							<div class="job-description">
+								<p> <a target="_blank" href="http://themanilapost.com">TheManilaPost.com</a> is a weekly news site that delivers timely and relevant information for the public.</p>
+								<p><i class="fa fa-tag"></i> cms, php, laravel</p>
+							</div>
+							<!-- /Content -->
+						</div>
+					</div>
+					<!-- /Item Content -->
+					<!-- Margin Collum-->
+					<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+					<!-- /Margin Collum-->
+				</div>
+				<!-- /SECTION ITEM --> 		 
+			</section>
+			<!-- ==>> /SECTION: WORK EXPERIENCE <<==== -->
+
+			<!-- ====>> SECTION: THANK YOU <<====-->
+			<section class="timeline profile-infos">
+				<!-- VERTICAL MARGIN (necessary for the timeline effect) -->
+				<div class="line row timeline-margin timeline-margin-big">
+					<div class="content-wrap">
+						<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+						<div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+						<div class="col-md-9 bg1 full-height"></div>
+					</div>
+				</div>
+				<!-- /VERTICAL MARGIN -->
+
+				<!-- SECTION ITEM -->
+				<div class="line row line-thank-you">
+					<!-- Margin Collums (necessary for the timeline effect) -->
+					<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+					<div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+					<!-- /Margin Collums -->
+					<!-- Item Content -->
+					<div class="col-md-8 content-wrap bg1">
+						<div class="line-content">
+						<!-- Subtitle -->
+						<h2 class="section-title">Thank You!</h2>
+						<!-- /Subtitle -->
+						</div>
+					</div>
+					<!-- /Item Content -->
+					<!-- Margin Collum-->
+					<div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+					<!-- / Margin Collum-->
 				</div>
 				<!-- /SECTION ITEM -->            
 			</section>
@@ -974,8 +1246,6 @@
 
 	<!-- Javascript Files
 	========================================================= -->
-	<!-- jQuery (necessary for plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<!-- /jquery -->
 	<!-- bootstrap -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -993,12 +1263,6 @@
 	<!-- Waypoints (for CSS3 animations) -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
 	<!-- /waypoints -->
-	<!-- Modal box-->
-	<script src="vendor/nivo-lightbox/nivo-lightbox.min.js"></script>
-	<!-- /Modal Box -->
-	<!-- Carousel-->
-	<script src="vendor/jquery.bxslider.min.js"></script>
-	<!-- /Carousel -->
 	<!-- Front-end Validator (for forms) -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
 	<!-- /Front-end Validator -->
@@ -1008,6 +1272,8 @@
 	<!-- Cross-browser -->
 	<script src="assets/js/cross-browser.js"></script>
 	<!-- /Cross-browser -->
+	<script src="vendor/nivo-lightbox/nivo-lightbox.min.js"></script>
+	<script src="vendor/jquery.bxslider.min.js"></script>
 	<!-- Configurations -->
 	<script src="assets/js/main.js"></script>
 	<!-- /Configurations -->
