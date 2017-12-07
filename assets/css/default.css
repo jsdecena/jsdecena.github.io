@@ -236,3 +236,7 @@ textarea.form-control {
 #footer p {
   color: #fff;
 }
+.job-description ul > li {
+  margin-left: 10px;
+  line-height: 25px;
+}
